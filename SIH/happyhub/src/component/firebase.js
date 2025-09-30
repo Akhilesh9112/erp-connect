@@ -4,6 +4,7 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore"; 
 import { getStorage } from "firebase/storage"; // ✅ add Storage
 
+
 // storage not required for this page, but okay if present
 
 const firebaseConfig = {
