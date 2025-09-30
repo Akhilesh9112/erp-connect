@@ -67,7 +67,7 @@ export default function EduNavbar() {
               </li>
               {/* === NEW INSTITUTE DASHBOARD LINK === */}
               <li className="px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#2563EB]">
-                <Link to="/institute-dashboard">Institute Dashboard</Link>
+                <Link to="/institute">Institute Dashboard</Link>
               </li>
               {/* ================================== */}
               <li className="px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#2563EB]">

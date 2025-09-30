@@ -21,6 +21,7 @@ import AdminLoginWithSignup from "./component/pages/adminlogin";
 import AdminAvailability from "./component/pages/adminavaibility";
 import ModuleAccordion from "./component/pages/modules";
 import StudentPortfolio from "./component/pages/portfolio";
+import StudentDashboardd from "./component/pages/institute";
 
 import ProtectedRoute from './context/ProtectedRoute';
 
@@ -53,6 +54,7 @@ function App() {
            
            <Route path="/admin" element={<AdminAvailability />} />
            <Route path="/portfolio" element={<StudentPortfolio/>} />
+           <Route path="/institute" element={<StudentDashboardd/>} />
 
         {/* Add more routes here if needed */}
       </Routes>
